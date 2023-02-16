@@ -2,29 +2,18 @@ const h1 = document.getElementById("header");
 const p1 = document.getElementById("paragraph");
 const b1 = document.body;
 
+function setTitle(myTitle){
 
-function setTitle(titleText = null)
-{
-    if(titleText == null)
-    {
-        h1.textContent = "This is default H1 Text!";
-    }
-    else
-    {
-        h1.textContent = titleText;
-    }
+    const $title = document.getElementById('header')
+
+    $title.textContent = myTitle
+
 }
 
-function setDescription(dText = null)
+function setDescription(dText)
 {
-    if(dText == null)
-    {
-        p1.textContent = "This is default paragraph Text!";
-    }
-    else
-    {
-        p1.textContent = dText;
-    }
+   const $dText = document.getElementById('paragraph')
+   $dText.textContent = dText
 }
 
 function setBackgroundColor(bgColor = null)
