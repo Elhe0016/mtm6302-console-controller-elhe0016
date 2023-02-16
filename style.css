@@ -1,0 +1,18 @@
+h1 {
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.dark-theme {
+    background-color: black !important;
+}
+
+.light-theme {
+    background-color: white !important;
+}
